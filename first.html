@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@700&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            font-family: 'Changa', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <img src="badr2.jpg" width="100%" id="logo">
+    
+    <center>
+        <div class="b1">
+            <hr>
+            <img src="badr.png" width="300px" id="ff">
+            <hr>
+        </div>
+    </center>
+
+    <hr>
+
+    <!-- Welcome Box -->
+    <div id="welcomeBox" style="font-size: 60px; color: white; text-align: center; margin: 30px 0;font-family: 'Changa', sans-serif;"></div>
+    <hr>
+
+    <div class="box1" align="right">
+        <h1 align="right"> اذهب للحصص :</h1>
+        <input type="button" onclick="vid()" value="الذهاب" id="gg">
+    </div>
+    <hr>
+
+    <div class="box1" align="right">
+        <h1 align="right">معجم بدر :</h1>
+        <input type="button" onclick="vi()" value="الذهاب" id="gg">
+    </div>
+    <hr>
+
+    <div class="bo" align="right">
+        <div class="r1" align="right">
+             بعض المستندات :
+            <img src="book.png" width="190px" height="190px">
+        </div>
+        <hr>
+    </div>
+
+    
+
+    <script>
+        function vid() {
+            window.location.href = "loading2.html";
+        }
+
+        function vi() {
+            window.location.href = "loading.html";
+        }
+
+        // Show welcome message with name
+        const urlParams = new URLSearchParams(window.location.search);
+        const first = urlParams.get('first');
+        const last = urlParams.get('last');
+        if (first && last) {
+            document.getElementById('welcomeBox').innerText = `اهلا بك، ${first} ${last}`;
+        }
+        function no() {
+            window.location.href="https://chat.whatsapp.com/Coh1nKoyx7SKUiiuWePTse";
+        }
+        function ok() {
+            alert("شكرا لك على ذلك");
+        }
+        function mm() {
+            window.location.href="https://wa.me/qr/JE45VE6RBQRGG1"
+        }
+    </script>
+ <br><br><hr><br><br><div class="bb">
+     هنا تظهر التنبيهات :
+     <hr>
+ </div><br><br><hr><br><br>
+ <div class="bb">
+     هل اشتركت في مجموعتنا ؟
+   
+     <hr>
+       <br><div class="jj" align="center"><button id="hg" onclick="ok()">نعم ✅</button>
+       <input type="button" value="لا ❎" id="hg" onclick="no()"></div>
+ </div>
+  <h1 align="center">لدي سؤال ؟</h1></he> <div class="bo" align="center">
+       <img src="result.png" align="center" id="iml">
+  
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><button id="hh" onclick="mm()">مراسلة المدرس</button>
+   </div>
+  <h2 align="center">™made by diaaabdelhady</h2>
+</body>
+</html>

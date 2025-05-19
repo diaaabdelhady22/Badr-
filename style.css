@@ -1,0 +1,81 @@
+#logo {
+    border-radius: 40px;
+}
+#ff {
+    border-radius: 1000px;
+}
+body {
+    background-color: #1c1c1c;
+}
+h1 {
+    font-size: 100px;
+    color: white;
+}
+#gg {
+    width: 240px;
+    height: 140px;
+    border-radius: 40px;
+    font-size: 70px;
+    font-family: 'Changa', sans-serif;
+}
+.b1 {
+    display: flex;
+}
+.h1 {
+    font-family: zain;
+}
+.bo {
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+}
+#fg {
+    color: black;
+}
+.b2 {
+    height: 700px;
+    color: black;
+}
+.r1 {
+    display: flex;
+    font-size: 100px;
+    font-family: 'Changa', sans-serif;
+}
+#iml {
+    position: absolute;
+    buttom: 500px;
+    right: 100px;
+}
+#hh {
+    width: 600px;
+    height: 140px;
+    border-radius: 40px;
+    font-size: 70px;
+    font-family: 'Changa', sans-serif;
+    background-color: black;
+    color: white;
+}
+.bb {
+     width: 100%;
+    height: 540px;
+    border-radius: 40px;
+    font-size: 70px;
+    font-family: 'Changa', sans-serif;
+    background-color: white;
+    color: black;
+}
+/* OOP CSS card styles omitted for brevity, unchanged */
+#hg {
+    width: 400px;
+    height: 140px;
+    border-radius: 40px;
+    font-size: 70px;
+    font-family: 'Changa', sans-serif;
+    background-color: black;
+    color: white;
+}
+h2 {
+    color: white;
+}
